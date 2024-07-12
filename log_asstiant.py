@@ -90,7 +90,7 @@ with new_content_placeholder.container():
                 nphi = log_utils.create_nphi_chart(base2, interval)
                 pef = log_utils.create_pef_chart(base2, interval)
                 dt = log_utils.create_dt_chart(base2, interval)
-                chart_nphi_rhob = (nphi + rhob)
+                chart_nphi_rhob = alt.layer(rhob, nphi).resolve_scale(x='independent',).properties().add_params(interval)
                 combined_chart_dt = log_utils.create_combined_char_dt(gr, chart_nphi_rhob, pef, dt)
                 st.altair_chart(combined_chart_dt, use_container_width=True)
 
