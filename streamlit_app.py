@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-#from pandas_profiling import ProfileReport
 import streamlit.components.v1 as components
 import joblib
 import log_utils  # Import the module
