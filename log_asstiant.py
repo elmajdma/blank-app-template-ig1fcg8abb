@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 import streamlit.components.v1 as components
 import joblib
-import log_utils  # Import the module
+import utils.log_utils as log_utils  # Import the module
 
 feature_target = ['GR', 'NPHI', 'PEF', 'RHOB']
 loaded_model = joblib.load('./sonic_prediction_model.pkl')
