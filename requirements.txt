@@ -5,4 +5,4 @@ numpy==1.26.4
 pandas==2.2.2
 altair==5.3.0
 lasio==0.31
-sklearn==1.5.0
+scikit-learn==1.5.0
