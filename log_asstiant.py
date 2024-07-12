@@ -17,7 +17,7 @@ st.text('Predict Missing log data, Easy and Straight Forward !!')
 st.text('Mohammed Abu El Majd, 2024\u00A9')
 st.write('Happy to contact me (elmajdma@gmail.com)')
 st.markdown('Note: Log Assistant v0.1 ')
-st.subheader(f'Upload Data File', divider='rainbow')
+st.subheader(f'Well Data', divider='rainbow')
 st.sidebar.image('./Multi-layer-map_1.png', use_column_width=True)
  # Import the module
 feature_target = ['GR', 'NPHI', 'PEF', 'RHOB']
