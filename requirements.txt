@@ -1,5 +1,5 @@
 streamlit==1.35.0
-job_lib==1.4.2
+job_lib
 matplotlib==3.9.1
 numpy==1.26.4
 pandas==2.2.2
